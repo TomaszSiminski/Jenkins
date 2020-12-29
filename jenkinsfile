@@ -17,7 +17,7 @@ pipeline{
 
             steps{
                echo "Test stage starting..."
-               C:\Windows\System32\PING.EXE localhost
+               PING.EXE localhost
             }
         }
 
